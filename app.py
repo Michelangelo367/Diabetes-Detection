@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 
 # Load the Random Forest CLassifier model only from model development file
-filename = 'diabetes-prediction-rfc-model.pkl'
+filename = 'diabetes-prediction-model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 
 app = Flask(__name__)
